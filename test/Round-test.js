@@ -51,7 +51,7 @@ describe("Round", () => {
     expect(round.turns).to.equal(3);
   });
   it("should be able to evaluate if the player's guess is correct", () => {
-    expect(round.takeTurn("object")).to.equal("You are Correct! 🌟 ");
+    expect(round.takeTurn("object")).to.equal("Correct! 🌟 ");
   });
   it("should be able to evaluate if the player's guess is incorrect", () => {
     expect(round.takeTurn("variables")).to.equal("Incorrect 😩 ");

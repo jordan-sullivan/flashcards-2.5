@@ -12,7 +12,7 @@ class Turn {
     }
     giveFeedback() {
       if (this.userGuess === this.card.correctAnswer) {
-        return "You are Correct! 🌟 ";
+        return "Correct! 🌟 ";
       } else {
         return "Incorrect 😩 ";
       }
