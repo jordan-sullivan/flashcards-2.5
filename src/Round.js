@@ -8,7 +8,7 @@ class Round {
     this.incorrectGuesses = [];
     }
     returnCurrentCard() {
-        return (this.currentCard = this.deck[0]);
+        return (this.currentCard = this.deck[this.turns]);
     }
     takeTurn(guess) {
         var currentCard = this.returnCurrentCard();
