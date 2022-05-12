@@ -14,9 +14,5 @@ describe("Game", () => {
     expect(Game).to.be.a("function");
   });
 
-  it("should be an instance of Game", () => {
-    expect(game).to.be.an.instanceof(Game);
-  });
-
   
 });
