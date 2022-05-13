@@ -22,10 +22,10 @@ class Round {
     calculatePercentCorrect() {
         var num = this.turns - this.incorrectGuesses.length;
         var percentCorrect = (num / this.turns) * 100;
-        return percentCorrect.toFixed(2);
+        return percentCorrect;
     }
     endRound() {
-        var percentCorrectMessage = ` 🃏 ** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly.`;
+        var percentCorrectMessage = `** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`;
         console.log(percentCorrectMessage);
         console.timeLog(" ⏰ Game Run Time");
         console.log("🤓 Thanks for playing FLASHCARDS! ");
