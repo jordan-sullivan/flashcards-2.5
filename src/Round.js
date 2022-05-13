@@ -27,6 +27,8 @@ class Round {
     endRound() {
         var percentCorrectMessage = `** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`;
         console.log(percentCorrectMessage);
+        console.timeLog(" ⏰ Game Run Time");
+        console.log("🤓 Thanks for playing FLASHCARDS! ");
         return percentCorrectMessage;
     }
 }
