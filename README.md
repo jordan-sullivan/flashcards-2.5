@@ -1,71 +1,36 @@
-# FlashCards Starter Kit
+# FlashCards
 
-## Fork This Repo
-
-On the top right corner of this page, click the **Fork** button.
-
-## Setup
-
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
-
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
-
-Once you have cloned the repo, change into the directory and install the library dependencies. Run:
-
-```bash
-npm install
-```
-
-To verify that it is setup correctly, run `npm test` in your terminal. You should have 5 pending tests in your `Card` test file that show up.
-
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
-
-```bash
-Your project is running...
-```
-
-*Note that you will not need to you run your server until you are instantiating your `Game` class in Iteration 3. Prior to that, you should be using TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
+### Solo Project
 
 
-## Where to Add Your Code
+## Abstract
 
-### JavaScript
+Have you ever found yourself needing just a couple moments more to practice or study? With this simple console flashcards game, you can quickly review Iterator methods and related topics before your next Mod 2 quiz!
 
-**Create all of your feature code files in the `src` directory.**
+In this Mod 2 solo project, we were asked to write a program to simulate a deck of flash cards through the command line ONLY. A user should be able to see the questions, take guesses, and see a final score as well as how long they took at the end of the round.
 
-We will be using the `module.exports` and `require` syntax to share code across files.
+![Flashcards gif](https://media.giphy.com/media/te7IvwIdYGNiIITwvV/giphy.gif)
 
-## How to View Your Code in Action
+## Local Set-Up Instructions
 
-Once you are working through Iteration 3, you will want to start your server to test your functionality.
-In the terminal, run:
+- From the repo click the code button and copy the SSH link.
+- Open terminal by pressing command + space bar, and search for terminal
+- Inside of you terminal type `git clone` and then paste the ssh link. It should look like this: [https://github.com/jordan-sullivan/flashcards-2.5](https://github.com/jordan-sullivan/flashcards-2.5)
+- In your terminal type `cd flashcards`
+- run `npm install to` set up the dependencies
+- Run `node index.js` to start the game that you will play on your terminal
+- The test results will output to the terminal.
 
-```bash
-node index.js
-```
+## Technologies Used
 
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
+- JavaScript, ES6 classes, TDD, Mocha, Chai 
 
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
+## Project Goals / Wins / And Future Features
 
----
+- Feeling more comfortable with ES6, testing suites, class to class interaction, and importing and exporting files. 
+- I was able to get the extension of the timer for the game completed. That was intereesting to research as most timers I saw connect to the DOM, and this one does not. 
+- With more time, I would like to convert the seconds to minutes on my timer with an additional method inside the Round class and use interpolation to add "minutes" and "seconds" as labels in the display message. 
 
-## Test Files Organization
+## Contributor
 
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
-
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `Round-test.js`.
-
-## Running Your Tests
-
-Run your test suite using the command:
-
-```bash
-npm test
-```
-
-The test results will output to the terminal.
-
-
+- [Jordan Sullivan](https://github.com/jordan-sullivan)
